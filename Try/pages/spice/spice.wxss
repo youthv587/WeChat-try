@@ -1,0 +1,23 @@
+/* pages/spice/spice.wxss */
+
+/* 背景大图格式 */
+.backPhoto{
+width:100%;
+height: 400px
+}
+/*小框框的格式*/
+.box {
+display: flex;
+flex: row;
+margin-top: 5px;
+padding: 4px;
+}
+.box-item text{
+text-align: center;
+font-size:25px;
+}
+.box-item image{
+width:80px;
+height:80px;
+}
+

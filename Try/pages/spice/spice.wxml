@@ -1,0 +1,24 @@
+<!--pages/spice/spice.wxml-->
+<view>
+<image  class="backPhoto" src="../../images/lovers3.jpg" ></image>
+</view>
+  <view class="box">
+    <view class="box-item">
+      <image  src="../../images/album.png" />
+      <text>相册</text>
+     
+    </view>
+    <view class="box-item">
+      <image  src="../../images/cal.png" />
+      <text>纪念日</text>
+    </view>
+    <view class="box-item">
+      <image  src="../../images/movies.png" />
+      <text>影院</text>
+     
+    </view>
+    <view class="box-item">
+      <image  src="../../images/book.png" />
+      <text>日记本</text>
+    </view>
+  </view>

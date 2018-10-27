@@ -1,0 +1,44 @@
+{
+	"pages": [
+		"pages/home/home",
+		"pages/spice/spice",
+		"pages/gifts/gifts",
+		"pages/hotel/hotel"
+	],
+		"window": {
+			"backgroundTextStyle": "light",
+			"navigationBarBackgroundColor": "#472c82",
+			"navigationBarTitleText": "Try",
+			"navigationBarTextStyle": "#fff"
+		},
+	"tabBar": {
+		"borderStyle": "white",
+		"position": "bottom",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "images/home.jpg",
+				"selectedIconPath": "images/home.jpg"
+			},
+						{
+							"pagePath": "pages/spice/spice",
+							"text": "情侣空间",
+							"iconPath": "images/Bear.jpg",
+							"selectedIconPath": "images/Bear.jpg"
+						},
+			{
+			"pagePath": "pages/gifts/gifts",
+			"text": "小礼物",
+			"iconPath": "images/gift.png",
+			"selectedIconPath": "images/gift.png"
+		},
+		{
+			"pagePath": "pages/hotel/hotel",
+			"text": "爱情小屋",
+			"iconPath": "images/heart.png",
+			"selectedIconPath": "images/heart.png"
+		}
+	]
+}
+}

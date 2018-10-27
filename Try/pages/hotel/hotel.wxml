@@ -1,0 +1,33 @@
+<!--pages/hotel/hotel.wxml-->
+<view>
+  <view class="title">
+    <text style="font-size:30px;">情侣宾馆</text>
+		<image style="width:30px;height:30px;" src="../../images/Bear.jpg" />
+  </view>
+  <view class="board">
+    <view class="board-item" catch:tap='map'>
+      <image  src="../../images/address.png" />
+      <text>农大7号宿舍楼</text>
+      <image  src="../../images/tip.png" />
+    </view>
+    <view class="board-item">
+      <image  src="../../images/time.png" />
+      <text>6:00-23:00</text>
+    </view>
+    <view class="board-item" catch:tap='makePhone'>
+      <image  src="../../images/tel.png" />
+      <text>6289110</text>
+      <image  src="../../images/tip.png" />
+    </view>
+    <view class="board-item">
+      <image  src="../../images/album.png" />
+      <text>门店照片</text>
+    </view>
+  </view>
+
+
+  <view>
+    <image class="hotel picture" src="../../images/hotel1.jpg" />
+    <image class="hotel picture" src="../../images/hotel2.jpg" />
+  </view>
+</view>

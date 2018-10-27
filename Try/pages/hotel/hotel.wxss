@@ -1,0 +1,27 @@
+/* pages/hotel/hotel.wxss */
+/*旅馆图片的格式*/
+.hotel.picture{
+width:100%;
+height: 300px
+}
+/*标题的格式*/
+.title{
+text-align: center;
+margin-top: 8px;
+padding: 8px;
+border: 2px solid rgb(167, 65, 177);
+}
+/*小框框的格式*/
+.board-item {
+display: flex;
+margin-top: 5px;
+padding: 4px;
+}
+.board-item text{
+flex: 1;
+font-size:25px;
+}
+.board-item image{
+width:30px;
+height:30px;
+}
